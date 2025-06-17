@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkOrderService", "WorkOrd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportService", "ReportService\ReportService.csproj", "{9A7AF43B-B26C-41C1-B5DD-D30BF5A3B055}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextCheckerService", "TextCheckerService\TextCheckerService.csproj", "{6CD854FB-A8BE-4F05-BE43-431C0F7D7E88}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{9A7AF43B-B26C-41C1-B5DD-D30BF5A3B055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A7AF43B-B26C-41C1-B5DD-D30BF5A3B055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A7AF43B-B26C-41C1-B5DD-D30BF5A3B055}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CD854FB-A8BE-4F05-BE43-431C0F7D7E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CD854FB-A8BE-4F05-BE43-431C0F7D7E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CD854FB-A8BE-4F05-BE43-431C0F7D7E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CD854FB-A8BE-4F05-BE43-431C0F7D7E88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

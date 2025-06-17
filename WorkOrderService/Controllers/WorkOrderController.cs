@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 [Route("api/[controller]")]
 public class WorkOrderController : ControllerBase
 {
-    private readonly IWorkOrderService _WorkOrderService;
+    private readonly IWorkOrderRepository _WorkOrderService;
 
-    public WorkOrderController(IWorkOrderService importService)
+    public WorkOrderController(IWorkOrderRepository importService)
     {
         _WorkOrderService = importService;
     }

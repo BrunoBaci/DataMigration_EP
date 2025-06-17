@@ -11,7 +11,7 @@ public class WorkOrderDbContext : DbContext
     public DbSet<WorkOrder> WorkOrders { get; set; }
 
     /// <summary>
-    /// The list of clients that will be used as a comparison whether the Work Order client names are valid or not
+    /// 
     /// </summary>
     public DbSet<Client> Clients { get; set; }
     public DbSet<Technician> Technicians { get; set; }
@@ -44,6 +44,4 @@ public class Technician
 
     [Column("Last Name")]
     public string LastName { get; set; }
-
-    public string FullName => $"{FirstName} {LastName}";
 }

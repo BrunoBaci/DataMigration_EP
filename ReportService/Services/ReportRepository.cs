@@ -7,11 +7,11 @@ using ReportService.Models;
 /// </summary>
 public class ReportRepository : IReportRepository
 {
-    private readonly string _reportPath;
+    private readonly string _reportPath = Path.Combine(Directory.GetCurrentDirectory(), "Reports");
 
     public ReportRepository(IConfiguration configuration)
     {
-        _reportPath = configuration["ReportsDirectory"] ?? "Reports";
+        //_reportPath = configuration["ReportsDirectory"] ?? "Reports";
         if (!Directory.Exists(_reportPath))
         {
             Directory.CreateDirectory(_reportPath);
