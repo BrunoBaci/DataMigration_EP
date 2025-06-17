@@ -10,3 +10,4 @@ obj/
 .env.*
 Dockerfile.*
 *.log
+/ReportService/Reports
